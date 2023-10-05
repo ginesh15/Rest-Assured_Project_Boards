@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="all_Test_Operation.Organization_All_Crud_operation"/>
+      <class name="all_Test_Operation.List_All_Crud_operation"/>
+      <class name="all_Test_Operation.Board_All_Crud_operation_Test"/>
+      <class name="all_Test_Operation.Card_All_Crud_operation"/>
+      <class name="all_Test_Operation.Label_All_Crud_operation_with_negative_Scenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
